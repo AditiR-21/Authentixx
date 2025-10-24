@@ -1,71 +1,94 @@
-# Welcome to our project
+Authentixx
 
-## Project info
+Authentixx is a full-stack MERN + AI web platform designed to analyze and protect digital content.
+It combines AI-driven analysis with modern UX to help users detect misinformation, bias, and risks in text and media.
 
-**URL**: https://lovable.dev/projects/81731975-e0cf-4a2c-8d25-07885e7ffe53
+Overview
 
-## How can I edit this code?
+Authentixx helps users identify and understand potential risks in digital content by:
 
-There are several ways of editing your application.
+Detecting fake news, misinformation, and deepfakes
 
-**Use Lovable**
+Analyzing legal contracts for risky clauses
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/81731975-e0cf-4a2c-8d25-07885e7ffe53) and start prompting.
+Flagging cognitive biases (emotionally charged or one-sided arguments)
 
-Changes made via Lovable will be committed automatically to this repo.
+Scanning documents for privacy and consent issues
 
-**Use your preferred IDE**
+Key Use Cases
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Journalists verifying sources and claims
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Lawyers or clients reviewing legal contracts
 
-Follow these steps:
+Students checking academic papers for bias
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+General users analyzing terms and conditions for hidden risks
+
+Tech Stack
+
+Frontend: React, TypeScript, Vite, Tailwind CSS, ShadCN UI
+
+Backend: Node.js, Express, MongoDB
+
+AI Layer: OpenRouter or any LLM API for analysis
+
+Hosting: Lovable.dev or Vercel
+
+Setup Instructions
+Option 1: Edit via Lovable
+
+Visit the project: Authentixx on Lovable
+
+Use natural language prompts to modify your project.
+
+All changes made in Lovable will automatically be committed to this repo.
+
+Option 2: Edit Locally in Your IDE
+
+Clone the repository:
+
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Access your app on http://localhost:5173
 
-**Use GitHub Codespaces**
+Option 3: Use GitHub Codespaces
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Click Code → Codespaces → New Codespace to launch a cloud IDE instantly.
 
-## What technologies are used for this project?
+Demo Mode
 
-This project is built with:
+The app includes built-in demo responses for testing when an API key is not available.
+You can use example inputs to simulate fake news detection, contract analysis, bias detection, and privacy scanning.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Deployment
 
-## How can I deploy this project?
+Open your Lovable project.
 
-Simply open [Lovable](https://lovable.dev/projects/81731975-e0cf-4a2c-8d25-07885e7ffe53) and click on Share -> Publish.
+Click Share → Publish to deploy your web app instantly.
 
-Yes, you can!
+Optionally, connect a custom domain under Project → Settings → Domains.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Research Potential
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project can be extended into research areas such as:
+
+AI-driven misinformation and media integrity
+
+Automated legal risk assessment
+
+NLP-based bias detection in language
+
+Privacy and consent risk scanning for text data
