@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Authentixx Cyber Theme - Deep Space Dark Mode */
+    --background: 240 10% 4%;
+    --foreground: 210 100% 98%;
+
+    --card: 240 8% 8%;
+    --card-foreground: 210 100% 98%;
+    
+    --card-glass: 240 10% 10%;
+
+    --popover: 240 8% 8%;
+    --popover-foreground: 210 100% 98%;
+
+    /* Violet primary for brand */
+    --primary: 270 100% 40%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 270 100% 50%;
+
+    /* Cyber blue accent */
+    --secondary: 195 100% 50%;
+    --secondary-foreground: 240 10% 4%;
+    --secondary-glow: 195 100% 60%;
+
+    --muted: 240 5% 15%;
+    --muted-foreground: 220 10% 60%;
+
+    --accent: 270 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 240 10% 15%;
+    --input: 240 10% 15%;
+    --ring: 270 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(240 10% 4%), hsl(270 50% 15%), hsl(240 10% 4%));
+    --gradient-card: linear-gradient(135deg, hsl(240 8% 8% / 0.6), hsl(270 40% 15% / 0.4));
+    --glow-violet: 0 0 40px hsl(270 100% 50% / 0.3);
+    --glow-blue: 0 0 40px hsl(195 100% 50% / 0.3);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 700;
+  }
+}
+
+@layer utilities {
+  .glow-text-violet {
+    text-shadow: 0 0 20px hsl(var(--primary-glow) / 0.5);
+  }
+  
+  .glow-text-blue {
+    text-shadow: 0 0 20px hsl(var(--secondary-glow) / 0.5);
+  }
+
+  .card-glass {
+    background: linear-gradient(
+      135deg,
+      hsl(var(--card-glass) / 0.4),
+      hsl(var(--card-glass) / 0.2)
+    );
+    backdrop-filter: blur(20px);
+    border: 1px solid hsl(var(--border) / 0.3);
+  }
+
+  .glow-border-violet {
+    box-shadow: 0 0 20px hsl(var(--primary) / 0.3),
+                inset 0 0 20px hsl(var(--primary) / 0.1);
+  }
+
+  .glow-border-blue {
+    box-shadow: 0 0 20px hsl(var(--secondary) / 0.3),
+                inset 0 0 20px hsl(var(--secondary) / 0.1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
