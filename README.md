@@ -73,14 +73,6 @@ Demo Mode
 The app includes built-in demo responses for testing when an API key is not available.
 You can use example inputs to simulate fake news detection, contract analysis, bias detection, and privacy scanning.
 
-Deployment
-
-Open your Lovable project.
-
-Click Share → Publish to deploy your web app instantly.
-
-Optionally, connect a custom domain under Project → Settings → Domains.
-
 Research Potential
 
 This project can be extended into research areas such as:
