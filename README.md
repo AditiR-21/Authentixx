@@ -1,37 +1,37 @@
-Authentixx
+# Authentixx
 
 Authentixx is a full-stack MERN + AI web platform designed to analyze and protect digital content.
 It combines AI-driven analysis with modern UX to help users detect misinformation, bias, and risks in text and media.
 
-Overview
+~ Overview
 
 Authentixx helps users identify and understand potential risks in digital content by:
 
-Detecting fake news, misinformation, and deepfakes
+* Detecting fake news, misinformation, and deepfakes
 
-Analyzing legal contracts for risky clauses
+* Analyzing legal contracts for risky clauses
 
-Flagging cognitive biases (emotionally charged or one-sided arguments)
+* Flagging cognitive biases (emotionally charged or one-sided arguments)
 
-Scanning documents for privacy and consent issues
+* Scanning documents for privacy and consent issues
 
-Key Use Cases
+~ Key Use Cases
 
-Journalists verifying sources and claims
+* Journalists verifying sources and claims
 
-Lawyers or clients reviewing legal contracts
+* Lawyers or clients reviewing legal contracts
 
-Students checking academic papers for bias
+* Students checking academic papers for bias
 
-General users analyzing terms and conditions for hidden risks
+* General users analyzing terms and conditions for hidden risks
 
-Tech Stack
+~ Tech Stack
 
-Frontend: React, TypeScript, Vite, Tailwind CSS, ShadCN UI
+*Frontend*: React, TypeScript, Vite, Tailwind CSS, ShadCN UI
 
-Backend: Node.js, Express, MongoDB
+*Backend*: Node.js, Express, MongoDB
 
-AI Layer: OpenRouter or any LLM API for analysis
+*AI Layer*: OpenRouter or any LLM API for analysis
 
 
 - Demo Mode - 
@@ -39,7 +39,7 @@ AI Layer: OpenRouter or any LLM API for analysis
 The app includes built-in demo responses for testing when an API key is not available.
 You can use example inputs to simulate fake news detection, contract analysis, bias detection, and privacy scanning.
 
-Research Potential
+~ Research Potential
 
 This project can be extended into research areas such as:
 
