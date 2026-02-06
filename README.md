@@ -50,3 +50,4 @@ This project can be extended into research areas such as:
 --> NLP-based bias detection in language
 
 --> Privacy and consent risk scanning for text data
+"Contribution by Ida" 
